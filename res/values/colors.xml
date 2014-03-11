@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="parent_bg_color">#efefef</color>
+    <color name="title_color">@color/tab_line_color</color>
+    <color name="header_title_color">@color/white</color>
+    <color name="sub_text_color">#777</color>
+    <color name="default_text_color">#9e9999</color>
+
+    <color name="transparent">@android:color/transparent</color>
+    <color name="list_divider_color">#ddd</color>
+    <color name="label_divider">#8f8f8f</color>
+    <color name="tab_line_color">#4083a9</color>
+    <color name="tab_default_color">#333</color>
+    
+    <color name="textview_bg">@color/parent_bg_color</color>
+    <color name="textview_below_line_border">@color/list_divider_color</color>
+
+    <color name="btn_text">#c4c4c4</color>
+    <color name="btn_border">#969696</color>
+
+    <color name="gray">#474747</color>
+    <color name="light_gray">#7a786f</color>
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+    <color name="blue">#0077CC</color>
+    <color name="text_color">#303030</color>
+    <color name="gray_background">#ece7eb</color>
+    <color name="vas_bg_color">#FF007F</color>
+
+
+    <color name="score">#375665</color>
+
+</resources>

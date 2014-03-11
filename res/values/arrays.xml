@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="answers">
+        <item>spongebob</item>
+        <item>Garfield</item>
+        <item>Woody</item>
+        <item>Avengers</item>
+    </string-array>
+
+    <string-array name="questions">
+        <item>@drawable/spongebob</item>
+        <item>@drawable/garfield</item>
+        <item>@drawable/woody</item>
+        <item>@drawable/avengers</item>
+    </string-array>
+    
+    <string-array name="hints">
+        <item>@string/spongebob</item>
+        <item>@string/garfield</item>
+        <item>@string/woody</item>
+        <item>@string/avengers</item>
+    </string-array>
+    
+</resources>

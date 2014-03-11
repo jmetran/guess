@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MechanicsActivity" >
+
+    <ImageView
+        android:id="@+id/img_mechanics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_medium"
+        android:src="@drawable/img_mechanics" />
+
+    <TextView
+        android:id="@+id/tv_mechanics"
+        style="@style/MechanicText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/img_mechanics"
+        android:text="@string/mechanics" />
+
+    <ImageButton
+        android:id="@id/btn_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv_mechanics"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/padding_small"
+        android:background="@null"
+        android:onClick="next"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_btn_skip" />
+
+</RelativeLayout>
